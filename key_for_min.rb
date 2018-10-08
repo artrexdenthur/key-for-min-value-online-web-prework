@@ -2,6 +2,7 @@
 # Given a hash with numeric values, return the key for the smallest value
 
 require 'pry'
+require 'pry-nav'
 
 def key_for_min_value(hash)
   x = 0 
