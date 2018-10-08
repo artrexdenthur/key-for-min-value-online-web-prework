@@ -6,11 +6,11 @@ require 'pry'
 def key_for_min_value(hash)
   x = 0 
   hash.map do |key, val|
-    binding.pry
     if x == 0
       lowval = val
       lowkey = key
       x = 1
+      binding.pry
     end
     if val < lowval
       lowval = val
