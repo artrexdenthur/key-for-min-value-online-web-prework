@@ -5,6 +5,8 @@ require 'pry'
 
 def key_for_min_value(hash)
   x = 0 
+  lowval = 0
+  lowkey = nil
   hash.map do |key, val|
     if x == 0
       lowval = val
