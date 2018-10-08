@@ -6,8 +6,8 @@ require 'pry'
 def key_for_min_value(hash)
   x = 0 
   hash.map do |key, val|
-    binding.pry
     if x == 0
+      binding.pry
       lowval = val
       lowkey = key
       x = 1
